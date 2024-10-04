@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendly Attendance Tracking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Attendly</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#events">Upcoming Events</a></li>
+                <li><a href="https://pallavss.github.io/Automated-QR-Registration/Registration.html" target="_blank">Registration</a></li>
+                <li><a href="https://pallavss.github.io/Automated-QR-Check-In/Check-In.html" target="_blank">Scan QR</a></li>
+                <li><a href="#support">Support</a></li>
+                <li><a href="#create">Create Events</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="content">
+            <h2>Welcome to Attendly</h2>
+            <p>Here you can use QR Based Attendance system to monitor number of people attending a webinar or a meeting in an efficent and easy manner..</p>
+        </div>
+    </section>
+
+    <!-- Upcoming Events Section -->
+    <section id="events" class="events">
+        <h2>Upcoming Events</h2>
+        <div class="event-container">
+            <div class="event">
+                <h3>Event 1</h3>
+                <p>Date: October 15, 2024</p>
+                <p>Description: A fun event for all attendees.</p>
+            </div>
+            <div class="event">
+                <h3>Event 2</h3>
+                <p>Date: November 2, 2024</p>
+                <p>Description: Don't miss this exciting opportunity!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support Section -->
+    <section id="support" class="support">
+        <h2>Need Help? Contact Us</h2>
+        <form action="mailto:adiya.9.8.2010@gmail.com" method="POST" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Create Events Section -->
+    <section id="create" class="create">
+        <h2>Create Your Own Event</h2>
+        <p>To create an event, please send us an email with the event details.</p>
+        <a href="mailto:adiya.9.8.2010@gmail.com?subject=Event%20Creation" class="create-event-button">Create Event</a>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
